@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round&display=swap");
+* {
+  font-family: "Varela Round", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background: #f7f7f7;
+}
+.navbar-nav .nav-link:hover {
+  color: #01abe6 !important;
+}
+
+.carousel-item img {
+  height: 400px;
+}
+
+.carousel-caption {
+  text-shadow: 0px 3px 4px black;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  top: 38%;
+  left: 15%;
+  z-index: 10;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-inner,
+  .carousel-item,
+  .carousel-item img {
+    height: calc(100vh - 2rem);
+  }
+}
+.carousel-caption h5 {
+  font-size: 2.25rem;
+}
+
+.container {
+  padding: 75px 0;
+  width: 1140px;
+  max-width: 100%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+section#about {
+  background-color: #01abe6;
+  color: #fff;
+}
+
+.dash {
+  background: #ef9c02;
+  width: 95px;
+  height: 2px;
+  margin: 0 0 1rem 0;
+}
+
+#about ul {
+  list-style: none;
+  padding: 2rem 0 0 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 600px) {
+  #about ul {
+    flex-flow: column;
+    align-items: center;
+  }
+}
+
+#about ul li {
+  width: 33%;
+  margin: 0 1rem;
+  text-align: center;
+  border: 3px solid white;
+  padding: 1rem;
+  border-bottom: 11px solid #ffffff;
+  border-radius: 39px;
+}
+
+#about ul li h3 {
+  text-shadow: 1px 1px 1px #ef9c02;
+}
+
+@media only screen and (max-width: 600px) {
+  #about ul li {
+    width: 90%;
+    margin: 10px;
+  }
+}
+
+#about i {
+  font-weight: 900;
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+#servicos {
+  background-color: #e7e6e6;
+}
+
+#servicos h2 {
+  text-align: center;
+  color: #01abe6;
+  font-size: 42px;
+  letter-spacing: -1px;
+}
+
+.cards,
+#clientes ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  align-content: center;
+}
+
+.card-item {
+  border: 1px solid #b7b7b7;
+  box-shadow: 0px 0px 3px 1px #b5b5b5;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  position: relative;
+  background-color: #fff;
+  border-bottom: 10px solid #01abe6;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.card-item p {
+  font-size: 16px;
+  color: #231f20;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-item {
+    width: 92%;
+  }
+}
+
+.card-item h3 {
+  color: #000;
+  font-family: houschka_headdemibold, sans-serif;
+  margin-top: 15px;
+  margin-bottom: 12px;
+  font-size: 23px;
+}
+
+#clientes h3 {
+  color: #0a64b2;
+}
+
+#clientes img {
+  width: 150px;
+  margin: 2rem;
+}
+
+#clientes li {
+  display: flex;
+  align-items: center;
+}
