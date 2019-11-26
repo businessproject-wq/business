@@ -11,11 +11,11 @@ html {
   background: #f7f7f7;
 }
 .navbar-nav .nav-link:hover {
-  color: #01abe6 !important;
+  color: #3e107d !important;
 }
 
 .carousel-item img {
-  height: 400px;
+  height: 90vh;
 }
 
 .carousel-caption {
@@ -56,7 +56,7 @@ html {
 }
 
 section#about {
-  background-color: #01abe6;
+  background-color: #3e107d;
   color: #fff;
 }
 
@@ -91,10 +91,6 @@ section#about {
   border-radius: 39px;
 }
 
-#about ul li h3 {
-  text-shadow: 1px 1px 1px #ef9c02;
-}
-
 @media only screen and (max-width: 600px) {
   #about ul li {
     width: 90%;
@@ -114,7 +110,7 @@ section#about {
 
 #servicos h2 {
   text-align: center;
-  color: #01abe6;
+  color: #3e107d;
   font-size: 42px;
   letter-spacing: -1px;
 }
@@ -136,7 +132,7 @@ section#about {
   width: 300px;
   position: relative;
   background-color: #fff;
-  border-bottom: 10px solid #01abe6;
+  border-bottom: 10px solid #ef9c02;
   border-radius: 12px;
   text-align: center;
 }
@@ -160,8 +156,8 @@ section#about {
   font-size: 23px;
 }
 
-#clientes h3 {
-  color: #0a64b2;
+#clientes h2 {
+  color: #3e107d;
 }
 
 #clientes img {
@@ -172,4 +168,35 @@ section#about {
 #clientes li {
   display: flex;
   align-items: center;
+}
+
+.input-group {
+  flex-flow: column;
+}
+
+.btn-primary {
+  background: #ef9c02;
+  border: 1px solid #ef9c02;
+}
+
+.btn {
+  width: 250px;
+  margin: 0 auto;
+}
+
+#contato {
+  background: #3e107d;
+  color: white;
+}
+
+footer {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #ef9c02;
+  border-top: 0.1px solid #ffffff1f;
+  color: #fbfbfb;
+  font-weight: 100;
+  font-size: 10px;
 }

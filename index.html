@@ -264,7 +264,7 @@
       </section>
       <section id="clientes">
         <div class="container">
-          <h3 data-aos="zoom-out">Clientes</h3>
+          <h2 data-aos="zoom-out">Clientes</h2>
           <div data-aos="zoom-in-up" class="dash"></div>
           <p data-aos="zoom-in-up">
             Laboramos com diversas empresas atualmente.
@@ -298,10 +298,53 @@
         </div>
       </section>
       <section id="contato">
-        
+        <div class="container">
+          <h2 data-aos="zoom-out">Contato</h2>
+          <div data-aos="zoom-in-up" class="dash"></div>
+          <p>Fale conosco pelo e-mail ou nos envie uma mensagem direta:</p>
+          <form
+            data-aos="zoom-in-up"
+            data-aos-duration="3700"
+            class="input-group"
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            id="myForm"
+          >
+            <p>
+              <input
+                class="form-control"
+                type="text"
+                name="nome"
+                placeholder="Nome"
+              />
+            </p>
+            <p>
+              <input
+                class="form-control"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+            </p>
+            <p>
+              <textarea
+                class="form-control"
+                name="mensagem"
+                placeholder="Mensagem"
+              ></textarea>
+            </p>
+
+            <button class="btn btn-primary" type="submit">Enviar</button>
+          </form>
+        </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div>© 2019 November. All rights reserved.</div>
+      <div>Made with ♥ in Salvador Bahia</div>
+    </footer>
+    <script src="./javascripts/script.js"></script>
     <script>
       AOS.init();
     </script>
